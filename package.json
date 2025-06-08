@@ -1,0 +1,28 @@
+{
+  "name": "@anupreet1213/resume",
+  "version": "1.0.0",
+  "description": "A CLI tool to display Anupreet's resume in the terminal",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "@anupreet1213/resume": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "resume",
+    "cli",
+    "terminal",
+    "anupreet1213"
+  ],
+  "author": "Anupreet",
+  "dependencies": {
+    "boxen": "^8.0.1",
+    "chalk": "^5.4.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
